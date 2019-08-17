@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bread Price Calculator</title>
+    <!-- Bootstrap CSS links -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <!-- MDB CSS links -->
+    <link rel="stylesheet" href="assets/MDBootstrap/css/mdb.min.css">
+
+
+    <!-- <link rel="stylesheet" href="Bread Price Calculator" /> -->
+
+  </head>
+  <body>
+
+
+<div class="container bg-color-change">
+      <p class="bread_type">Filade</p>
+
+      <div class="forms">
+        <div class="inputs">
+          <div class="bread_field">
+            <input type="text" id="type" placeholder="Type of bread" value="" />
+          </div>
+          
+          <div class = 'size_field'>
+            <input type="text" id="size" placeholder="What Size?" value="" />
+          </div>
+
+          <div class="quantity_field">
+            <input
+              type="number"
+              value=""
+              id="quantity"
+              placeholder="Quantity"
+            />
+          </div>
+          <div class="submitBtn">
+            <input type="submit" id="price" value="Get Price" />
+          </div>
+        </div>
+      </div>
+
+      
+        
+    </div>
+
+    <ul id = 'show-price' >
+          
+    </ul>
+    <div class = 'container  mt-5'>
+      <div class ='row'>
+        <div class = 'col-md-3 mx-auto'>
+          <p class = 'h4 teal-text text-center py-2 px-1'>Bread Price Calculator</p>
+        </div>
+      </div>
+
+        <div class = 'row'>
+          <div class = 'col-sm-12 col-md-8'>
+            <form class="p-5 grey-text">
+              <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
+                  <input id = 'type' type="text" id="form3" class="form-control form-control-sm">
+                  <label >Bread Type</label>
+              </div>
+              <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
+                  <input id ='size' type="text" id="form2" class="form-control form-control-sm">
+                  <label >Bread Size</label>
+              </div>
+              <div class="md-form form-sm"> <i class="fa fa-tag prefix"></i>
+                  <input id ='quantity' type="text" id="form32" class="form-control form-control-sm">
+                  <label >Bread Quantity</label>
+              </div>
+              
+              <div class="text-center mt-4">
+                  <input type="submit" value = 'Get price' id = 'price' class = 'btn btn-primary'>
+              </div>
+            </form>
+        </div>
+        
+      </div>
+    </div>
+
+    <ul id = 'show-price' >
+          
+    </ul> 
+    
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- MDB JS links -->
+    <script type="text/javascript" src = 'assets/MDBootstrap/js/mdb.min.js'></script>
+  
+
+    <script src="Bread Price Calculator.js"></script>
+  </body>
+</html>
